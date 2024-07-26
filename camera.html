@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <button id="startCamera"></button>Offer an opject</button>
+    <video id="video" width="640" height="480" autoplay></video>
+
+    <script>
+        document.getElementById('startCamera').addEventListener('click', function() {
+            if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+                navigator.mediaDevices.getUserMedia({ video: true })
+                    .then(function(stream) {
+                        const video = document.getElementById('video');
+                        video.srcObject = stream;
+                        video.play();
+                    })
+                    .catch(function(error) {
+                        console.log("خطأ في الوصول إلى الكاميرا: ", error);
+                    });
+            } else {
+                alert("الوسائط غير مدعومة في هذا المتصفح");
+            }
+        });
+    </script>
+</body>
+</html>

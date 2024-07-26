@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+
+    <body>
+        <!--
+// v0 by Vercel.
+// https://v0.dev/t/WoCltxVSqki
+-->
+
+        <div class="flex flex-col min-h-screen">
+            <header class="bg-primary text-white py-4 px-6">
+                <div class="container mx-auto flex items-center justify-between">
+                    <div class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6">
+                            <path d="M7 19H4.815a1.83 1.83 0 0 1-1.57-.881 1.785 1.785 0 0 1-.004-1.784L7.196 9.5">
+                            </path>
+                            <path d="M11 19h8.203a1.83 1.83 0 0 0 1.556-.89 1.784 1.784 0 0 0 0-1.775l-1.226-2.12">
+                            </path>
+                            <path d="m14 16-3 3 3 3"></path>
+                            <path d="M8.293 13.596 7.196 9.5 3.1 10.598"></path>
+                            <path
+                                d="m9.344 5.811 1.093-1.892A1.83 1.83 0 0 1 11.985 3a1.784 1.784 0 0 1 1.546.888l3.943 6.843">
+                            </path>
+                            <path d="m13.378 9.633 4.096 1.098 1.097-4.096"></path>
+                        </svg><span class="text-xl font-bold">CleanEarth Recyclers</span></div>
+                    <div class="text-sm text-white">Location: San Francisco, CA<br>Managers: Malak, Sadeel, Ward</div>
+                    <nav class="hidden md:flex items-center gap-4"><a class="hover:underline" href="#">Offer Items</a><a
+                            class="hover:underline" href="#">Locations</a></nav><button
+                        class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 w-10 md:hidden"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="w-6 h-6">
+                            <line x1="4" x2="20" y1="12" y2="12"></line>
+                            <line x1="4" x2="20" y1="6" y2="6"></line>
+                            <line x1="4" x2="20" y1="18" y2="18"></line>
+                        </svg></button>
+                </div>
+            </header>
+            <main class="flex-1 py-12 px-4 md:px-6">
+                <section class="mb-12">
+                    <div class="container mx-auto max-w-4xl">
+                        <h2 class="text-3xl font-bold mb-4">Offer Your Items</h2>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                            <div>
+                                <h3 class="text-xl font-bold mb-2 text-green-500">The Problem</h3>
+                                <p class="text-muted-foreground">Electronic waste is a growing problem worldwide, with
+                                    millions of tons of e-waste generated annually. Improper disposal of these items can
+                                    lead to environmental and health issues. By offering your used electronics for
+                                    recycling, you can help reduce the impact of e-waste and contribute to a more
+                                    sustainable future.</p>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold mb-2 text-green-500">The Solution</h3>
+                                <p class="text-muted-foreground">By partnering with CleanEarth Recyclers, you can easily
+                                    and responsibly dispose of your electronic waste. Our recycling centers use
+                                    state-of-the-art technology to extract and reuse valuable materials from your old
+                                    devices, minimizing the environmental impact. Together, we can create a cleaner,
+                                    more sustainable future for our planet.sibly dispose of your electronic waste. Our
+                                    recycling</p>
+                            </div>
+                        </div>
+                        <div class="mt-8">
+                            <h3 class="text-xl font-bold mb-2 text-green-500">What Can You Offer?</h3>
+                            <ul class="space-y-2 text-muted-foreground">
+                                <li>Computers and laptops</li>
+                                <li>Phones and tablets</li>
+                                <li>TVs and monitors</li>
+                                <li>Small appliances and electronics</li>
+                            </ul>
+                            <h3 class="text-xl font-bold mb-2 text-green-500">How to Offer Items</h3>
+                            <ol class="space-y-2 text-muted-foreground">
+                                <li>Wipe all data from devices</li>
+                                <li>Disassemble items if possible</li>
+                                <li>Find a local recycling center or schedule a pickup to donate your items</li>
+                                <li>Avoid throwing electronics in the trash as they contain hazardous materials</li>
+                            </ol>
+                            <div class="mt-8"><button
+                                    class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-11 rounded-md px-8 w-full">Offer
+                                    Items</button><button
+                                    class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-11 rounded-md px-8 w-full mt-4">Offer
+                                    an Object</button></div>
+                        </div>
+                    </div>
+                </section>
+                <section id="locations" class="mb-12">
+                    <div class="container mx-auto max-w-4xl">
+                        <h2 class="text-3xl font-bold mb-4">Recycling Locations</h2>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                            <div>
+                                <h3 class="text-xl font-bold mb-2 text-green-500">Find a Recycling Center</h3>
+                                <div class="text-muted-foreground">
+                                    <p>Use our map to find the nearest recycling center for your area. You can filter by
+                                        material type and see details like hours of operation and accepted items.</p><a
+                                        class="inline-flex items-center gap-2 mt-4" href="#"><svg
+                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5">
+                                            <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path>
+                                            <circle cx="12" cy="10" r="3"></circle>
+                                        </svg>View Recycling Locations</a>
+                                </div>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold mb-2 text-green-500">Schedule a Pickup</h3>
+                                <div class="text-muted-foreground">
+                                    <p>If your area doesn't have curbside recycling, you can schedule a pickup for your
+                                        recyclables. Our service partners will come to your home or business to collect
+                                        your items.</p><a class="inline-flex items-center gap-2 mt-4" href="#"><svg
+                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5">
+                                            <path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"></path>
+                                            <path d="M15 18H9"></path>
+                                            <path
+                                                d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14">
+                                            </path>
+                                            <circle cx="17" cy="18" r="2"></circle>
+                                            <circle cx="7" cy="18" r="2"></circle>
+                                        </svg>Schedule a Pickup</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="mb-12">
+                    <div class="container mx-auto max-w-4xl">
+                        <h2 class="text-3xl font-bold mb-4">Photo</h2><img src="https://www.trademade-app.com/wp-content/uploads/2015/10/2-browse.jpg" alt="Recycling Center"
+                            width="600" height="400" class="rounded-lg object-cover w-full"
+                            style="aspect-ratio: 600 / 400; object-fit: cover;" />
+                    </div>
+                </section>
+            </main>
+            <footer class="bg-muted text-muted-foreground py-6">
+                <div class="container mx-auto flex flex-col md:flex-row items-center justify-between">
+                    <div class="flex items-center gap-2 mb-4 md:mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6">
+                            <path d="M7 19H4.815a1.83 1.83 0 0 1-1.57-.881 1.785 1.785 0 0 1-.004-1.784L7.196 9.5">
+                            </path>
+                            <path d="M11 19h8.203a1.83 1.83 0 0 0 1.556-.89 1.784 1.784 0 0 0 0-1.775l-1.226-2.12">
+                            </path>
+                            <path d="m14 16-3 3 3 3"></path>
+                            <path d="M8.293 13.596 7.196 9.5 3.1 10.598"></path>
+                            <path
+                                d="m9.344 5.811 1.093-1.892A1.83 1.83 0 0 1 11.985 3a1.784 1.784 0 0 1 1.546.888l3.943 6.843">
+                            </path>
+                            <path d="m13.378 9.633 4.096 1.098 1.097-4.096"></path>
+                        </svg><span class="text-lg font-bold">CleanEarth Recyclers</span></div>
+                    <nav class="flex items-center gap-4"><a class="hover:underline" href="#">Privacy Policy</a></nav>
+                </div>
+            </footer>
+        </div>
+
+        <p><a href="camera.html">offer an object</a></p>
+    </body>
+
+    </html>
